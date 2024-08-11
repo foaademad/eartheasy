@@ -1,0 +1,715 @@
+  @charset "utf-8";
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} 
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li{
+  
+  list-style: none;
+}
+body {
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a{
+     text-decoration: none;
+    color: #89a579 !important;
+    height: 40px;
+      overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .5s;
+  }
+ .content-main button{
+      height: 40px;
+      padding: 5px 20px;
+      color: #ffffff;
+      background-color: #e9b534;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+     
+      cursor: pointer;
+      transition: background-color .5s;
+    }
+    .ligth{
+        background-color: white;
+    }
+    .menty-grey{
+        color:#89a579;
+    }
+ /* ==========================    */
+    .navbar{
+        position: relative;
+    }
+    .menue-bar{
+        display: none;
+    }
+    .navbar-toggler span{
+        color: #89a579;
+       
+    }
+    .container-fluid{
+        width: 65%; 
+       
+    }
+    .container-fluid img{
+        max-height: 55px;
+        
+    }
+    .out-navbar{
+        display: flex;
+       
+    }
+    .out-navbar .navbar{
+        display: flex !important;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+
+    }
+    .navbar .icon a{
+       padding-left: 30px;
+       
+    }
+    .navbar .icon i{
+        font-size: 25px;
+       
+     }
+     .out-navbar nav {
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+     }
+    .out-navbar  a {
+       font-size: 18px;
+       align-items: center;
+       padding-left: 40px;
+    }
+
+    /* نمط القائمة المنسدلة */
+    .nav-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+  
+    .nav-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .nav-dropdown-content a {
+        
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .nav-dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    
+    .nav-dropdown:hover .nav-dropdown-content {
+        display: block;
+    }
+  
+    .menue-bar img{
+        margin-left: 15px;
+    }
+
+   
+
+/* Dropdown Button for slide bar */
+.dropbtn {
+    color:#89a579;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    
+}
+.dropdown {
+    display: inline-block;
+    margin-top: 10PX;
+}
+.dropdown-content {
+    display: none;
+    z-index: 1;
+    width: 100%;
+   
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+.dropdown-content a:hover {
+    
+    background-color: #c5c5c5
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+}
+
+
+
+
+    /* Dropdown menu */
+    .dropbtn1 {
+    
+        color:#89a579;
+        
+        font-size: 36px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropdown1 {
+        
+        
+        display: inline-block;
+    }
+    
+    .dropdown-content1 {
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 2000px ;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        background-color: #f9f9f9;
+        z-index: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .dropdown-content1 a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        width: 100% !important;
+    }
+    
+    
+    .dropdown-content1 a:hover {background-color: #f1f1f1}
+    
+    
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+    
+    
+    /* ===================== */
+    
+    
+
+
+
+
+
+
+/* main */
+main{
+    background-image: url('../img/home/paper-edge-Recovered2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 740px; /* ارتفاع السيكشن ليكون بنفس ارتفاع نافذة المتصفح */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* لون النص */
+}
+.content-main h1{
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+.content-main p{
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+/* container */
+.section1 .content > p{
+    width: 65%; 
+}
+     
+    /*section1*/
+    .section1{
+        margin-top: 50px;
+        text-align: center;
+      }
+      .section1 p{
+       color: darkolivegreen;
+        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 2em;
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        width: 90%; 
+        margin: auto;
+      }
+  .class-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+  
+  .class-card {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .section1 .class-card a {
+    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    padding: 4rem .625rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+  
+  .class-card h6 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+
+  }
+  
+  .class-card p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: white;
+    font-weight: 500;
+  }
+  
+  /* section2,3  */
+
+  .line-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    width: 65%;
+    
+    margin: auto;
+    
+}
+
+.line {
+    
+    flex-grow: 1;
+    border: none;
+    height: 2px;
+    background-color: #89a579; /* لون الخط */
+    
+}
+
+.line-text {
+    margin: 0 60px;
+    color: #89a579 ; /* لون النص */
+    font-weight: bold;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+
+    font-size: 28px;
+}
+
+/* slide */
+.sliddes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+ .card-list .card-item{
+    color: #89a579;
+width:900px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 8px;
+ background-color: rgba (255, 255, 255, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.card-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #89a579;
+    text-align: center;
+}
+
+.reviews {
+    font-size: 18px;
+    color: #89a579;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.price {
+    font-size: 18px;
+    color: #89a579;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #00000061;
+    margin-right: 5px;
+}
+
+
+
+
+/* section 4 */
+.section4{
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('https://cdn11.bigcommerce.com/s-j602wc6a/stencil/a76aacf0-e4bb-013c-334b-3ede0878ccc8/e/6bc56380-233a-013c-5331-36b069d6301d/img/textured-bground-brown.webp');
+}
+.section4 h1 {
+    margin: 0 60px;
+    color: #657a59 ; /* لون النص */
+    font-weight: bold;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+
+    font-size: 28px;
+}
+.section4 .line-container-3-faild {
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.sliddes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-wrapperr {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+
+}
+
+.card-item3fild img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+   
+}
+.card-item3fild{
+    height: 250px;
+    position: relative;
+}
+
+
+.section4 .overlay h6 {
+font-size: 1.2em;
+margin-bottom: 10px;
+color: white;
+font-family: Lora, Arial, Helvetica, sans-serif;
+z-index: 2;
+display: flex;
+text-align: center;
+
+
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.492);
+    transition: 0.5s ease;
+    opacity: 1;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+} 
+.section4 button{
+    height: 40px;
+    padding: 2.4em 2.8em;
+    background-color: #ffffff;
+    color: #89a579;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #89a579;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+    cursor: pointer;
+    margin: auto;
+    transition: background-color .5s;
+  }
+  .section4 button:hover{
+    background-color: #89a579;
+    color: #fff;
+    
+  }
+
+/* section5 */
+
+.section5{
+    margin-top: 100px;
+ text-align: center;
+ margin-bottom: 90px;
+ 
+}
+.section5 .class-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    
+    padding-top: 40px;
+    
+   
+  }
+  
+  .section5 .class-card {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    width: 350px;
+  }
+
+ 
+  
+  .section5 .class-card p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.484);
+    font-weight: 500;
+    line-height: 20px;
+  } 
+
+  .section5 .class-card .why-choose-info{
+    color: black;
+    font-size: 17px;
+    padding-top: 20px;
+    font-family: lora;
+  }
+
+
+  /* <!-- section6 --> */
+  .section6 {
+    
+    width: 100%;
+    padding: 0;
+    background-image: url('../img/SC6.png');
+    background-size: cover;
+    height: 400px;
+    color: white;
+    margin-bottom: 70px;
+}
+.section6 .learn-hero-content {
+    width: 65%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section6 .learn-hero-content h2 {
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+
+
+.section6 .learn-hero-content p {
+    font-family: Lora, Arial, Helvetica, sans-serif;
+
+    padding-top: 20px;
+    font-size: 20px;
+    width: 65%;
+}
+
+.section6 .learn-hero-content button{
+    height: 40px;
+    padding: 8px 30px;
+    color: #ffffff;
+    background-color: #e9b534;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color .5s;
+  }
+
+
+/* footer  */
+footer {
+    background: #fff url('https://cdn11.bigcommerce.com/s-j602wc6a/stencil/a76aacf0-e4bb-013c-334b-3ede0878ccc8/e/6bc56380-233a-013c-5331-36b069d6301d/img/textured-bg-brown-min.webp') no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding: 5.75rem 0 1.875rem;
+    margin-top: .9375rem;
+    display:block;
+}
+footer::before {
+    content: '';
+    width: 100%;
+    height: 45px;
+    background: url('https://cdn11.bigcommerce.com/s-j602wc6a/stencil/a76aacf0-e4bb-013c-334b-3ede0878ccc8/e/6bc56380-233a-013c-5331-36b069d6301d/img/paper-edge.webp') no-repeat bottom center;
+    background-size: 100% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.container-footer{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 50px;
+   
+}
+.up-footer,.down-footer{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ 
+footer .up-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+    
+   
+  }
+  
+  .up-footer .footer-info-col {
+    
+    width: 250px;
+    margin-left: 40px;
+  }
+article h3{
+    margin-top: 20px;
+color: #657a59;
+font-size: 20px;
+
+}
+article a {
+font-weight: 500;
+}
+.socail-icon {
+display: flex;
+margin-top: 30px;
+margin-bottom: 20px;
+margin: auto;
+}
+.socail-icon i {
+    padding-right: 30px;
+    font-size: 25px;
+    color: #89a579;
+}
+.footer-copyright
+{
+    padding-top: 20px;
+    text-align: center;
+}
+.footer-info-heading{
+    padding-bottom: 20px;
+}
+.down-footer .footer-payment-icons img{
+width: 350px;
+height: 30px;
+}
+.footer-partner-icons-img{
+    width: 350px;
+}

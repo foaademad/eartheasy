@@ -1,0 +1,197 @@
+
+@media (max-width: 1400px) {
+    .container-fluid,.line-container,.container-footer,.section1 .content > p{
+        width: 90%;   
+    }
+    .down-footer img{
+        width: 250px;
+        }
+        
+
+}
+@media (min-width: 1250px) {
+    
+    .container-fluid img{
+        max-height: unset;
+        margin-bottom: -20px;
+    }
+
+}
+@media (max-width: 1080px) {
+    
+}
+
+@media (max-width: 950px) {
+
+    .menue-bar{
+        display: block;
+        position: absolute;
+        right: 6.5%;
+    }
+    .out-navbar nav{
+        display: none;
+    }
+    .icon{
+         display: none;
+    }
+    .section6 .learn-hero-content {
+        width: 95%;
+        
+    }
+    .down-footer img{
+        width: 200px;
+        }
+        
+    
+}
+
+@media (max-width: 850px) {
+    .down-footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+
+        
+     }
+     .down-footer img{
+        width: 300px;
+    }
+
+
+}
+@media (max-width: 750px) {
+    .content-main h1{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 2.3em;
+        letter-spacing: 1px;
+    }
+    .content-main p{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        font-size: 1.1em;
+        letter-spacing: 1px;
+    }
+    .content-main button{
+        height: 40px;
+        padding: 4px 17px;
+        color: #ffffff;
+        background-color: #e9b534;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        border: none;
+       
+        cursor: pointer;
+        transition: background-color .5s;
+      }
+      .section4 button{
+        font-size: 13px;
+      }
+
+
+}
+
+@media (max-width: 550px) {
+    .content-main h1{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 2em;
+        letter-spacing: 1px;
+    }
+    .content-main p{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+    .content-main button{
+        height: 30px;
+        padding: 3px 13px;
+        color: #ffffff;
+        background-color: #e9b534;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        border: none;
+       
+        cursor: pointer;
+        transition: background-color .5s;
+      }
+
+      .section6 .learn-hero-content h2 {
+        font-size: 35px;
+    }
+    
+    
+    .section6 .learn-hero-content p {
+
+        font-size: 17px;
+        width: 100%;
+    }
+    
+    .section6 .learn-hero-content button{
+        font-size: 17px;
+      }
+      .heroCarousel-title-decoration img{
+        width: 200px;
+      }
+    
+
+}
+
+@media (max-width: 450px) {
+
+    .container-fluid img{
+        width: 145px;
+    }
+
+    .section4 button{
+        font-size: 10px;
+      }
+}
+@media (max-width: 350px) {
+    .container-fluid img{
+        width: 135px;
+    }
+    .menue-bar img{
+        margin-left: 10px;
+       
+    }
+    .container-fluid,.container{
+        width: 95%; 
+    }
+    .content-main h1{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 1.7em;
+        letter-spacing: 1px;
+    }
+    .content-main p{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        font-size: .8em;
+        letter-spacing: 1px;
+    }
+    .content-main button{
+        height: 30px;
+        padding: 3px 12px;
+        color: #ffffff;
+        background-color: #e9b534;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        border: none;
+       
+        cursor: pointer;
+        transition: background-color .5s;
+      }
+      .down-footer img{
+        width: 280px;
+    }
+      .down-footer .footer-payment-icons img{
+        width: 280px;
+        height: 30px;
+        }
+}
